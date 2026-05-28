@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Automation or GitHub questions
+    url: mailto:automation@dutchtoysgroup.com
+    about: Questions about this GitHub organization, CI/CD, or internal automation tooling
+  - name: General EXIT Toys inquiries
+    url: mailto:info@exittoys.com
+    about: All other questions about EXIT Toys, our products, or services

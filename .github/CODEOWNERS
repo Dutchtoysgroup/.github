@@ -1,0 +1,20 @@
+# CODEOWNERS for EXIT Toys
+#
+# These owners will be requested for review automatically when a PR is opened.
+# Order matters: the last matching pattern takes precedence.
+#
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-security/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+*       @exittoys-automation @SvenDijk2408
+
+# Workflows and CI config require automation account review
+/.github/                           @exittoys-automation
+/.github/workflows/                 @exittoys-automation
+
+# Infrastructure and deployment
+/vercel.json                        @exittoys-automation @SvenDijk2408
+/.env*                              @exittoys-automation @SvenDijk2408
+
+# Documentation can be reviewed by anyone with write access
+*.md                                @SvenDijk2408
