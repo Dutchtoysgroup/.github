@@ -5,16 +5,16 @@
 #
 # Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-security/customizing-your-repository/about-code-owners
 
-# Default owners for everything in the repo
-*       @exittoys-automation @SvenDijk2408
+# Default owner for everything in the repo
+*       @svendijk2408
 
-# Workflows and CI config require automation account review
-/.github/                           @exittoys-automation
-/.github/workflows/                 @exittoys-automation
+# Workflows and CI config
+/.github/                           @svendijk2408
+/.github/workflows/                 @svendijk2408
 
 # Infrastructure and deployment
-/vercel.json                        @exittoys-automation @SvenDijk2408
-/.env*                              @exittoys-automation @SvenDijk2408
+/vercel.json                        @svendijk2408
+/.env*                              @svendijk2408
 
-# Documentation can be reviewed by anyone with write access
-*.md                                @SvenDijk2408
+# Documentation
+*.md                                @svendijk2408
