@@ -22,6 +22,10 @@ Headquartered in the Netherlands, our products reach families across Europe.
 </p>
 
 ---
+### How we use Github
+We use this Github organisation as a centralized place for all software we write ourselves. These are mostly small internal tools like scripts that solve very specic problems we face. If any repo is public and of use to you, feel free to use it! 
+
+---
 
 ### Get in touch
 
